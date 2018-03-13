@@ -31,10 +31,6 @@
    {% assign website_url = common.url %}
   {% endif %}
 
-  {% if common.type == 'x-developers' %}
-   {% assign portal_url = common.url %}
-  {% endif %}
-
   {% if portal_url == '' %}
    {% assign portal_url = website_url %}
   {% endif %}
