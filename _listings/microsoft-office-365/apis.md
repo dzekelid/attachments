@@ -25,7 +25,7 @@ apis:
   tags: Attachments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/attachments/master/_listings/microsoft-office-365/contacts-contact-id-attachments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/attachments/master/_listings/microsoft-office-365/contacts-contact-id-attachments-post.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
