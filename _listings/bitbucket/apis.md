@@ -10,9 +10,9 @@ tags:
 - Stack Network
 - Imports
 - Developers
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/attachments/master/_listings/bitbucket/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Bitbucket
@@ -25,7 +25,7 @@ apis:
   tags: Attachments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/attachments/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-attachments-path-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-attachments-get.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
