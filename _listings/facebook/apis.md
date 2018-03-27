@@ -22,9 +22,9 @@ tags:
 - Issues
 - Indie EdTech Data Jam
 - Facebook Stack
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/attachments/master/_listings/facebook/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/facebook/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Facebook
@@ -36,7 +36,7 @@ apis:
   tags: Attachments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/attachments/master/_listings/facebook/post-id-attachments-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/facebook/message-id-attachments-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
