@@ -36,7 +36,7 @@ apis:
   tags: Attachments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/facebook/post-id-attachments-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/facebook/post-id-attachments-delete.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
