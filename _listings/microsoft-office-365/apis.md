@@ -11,9 +11,9 @@ tags:
 - Spreadsheets
 - Productivity
 - Documents
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/attachments/master/_listings/microsoft-office-365/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-office-365/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Microsoft Office 365
@@ -25,7 +25,7 @@ apis:
   tags: Attachments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/attachments/master/_listings/microsoft-office-365/contacts-contact-id-attachments-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-office-365/contacts-contact-id-attachments-get.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
