@@ -42,9 +42,9 @@ apis:
   tags: Attachments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-graph/me-mailfolders-id-childfolders-id-messages-id-attachments-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-graph/users-id-|-userprincipalname-mailfolders-id-childfolders-id-messages-id-attachments-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-graph/me-mailfolders-id-childfolders-id-messages-id-attachments-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-graph/users-id-|-userprincipalname-mailfolders-id-childfolders-id-messages-id-attachments-id-get-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
