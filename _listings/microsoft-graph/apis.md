@@ -35,16 +35,14 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-graph/groups-id-conversations-id-threads-id-posts-id-attachments-get.md
 - name: Microsoft Graph API List Attachments
   description: List attachments Retrieve a list of attachment objects attached to
-    a message.
+    an event.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Attachments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-graph/users-id-|-userprincipalname-mailfolders-id-childfolders-id-messages-id-attachments-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-graph/users-id-|-userprincipalname-mailfolders-id-childfolders-id-messages-id-attachments-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-graph/me-events-id-attachments-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
