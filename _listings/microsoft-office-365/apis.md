@@ -26,15 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-office-365/contacts-contact-id-attachments-parameters.md
-- name: Microsoft Office 365 Add Contacts Contact Attachments
-  description: To add an attachment to an item, send a POST request to the ...
+- name: Microsoft Office 365 Delete Contacts Contact Attachments
+  description: To delete an attachment, send a DELETE request to the URL of...
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
   humanURL: http://office.com
   baseURL: https://outlook.office365.com//ews/odata/Me
   tags: Attachments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-office-365/contacts-contact-id-attachments-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-office-365/contacts-contact-id-attachments-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-office-365/contacts-contact-id-attachments-delete-postman.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
