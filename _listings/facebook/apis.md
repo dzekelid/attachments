@@ -37,15 +37,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/facebook/post-id-attachments-put.md
-- name: Facebook Get Message Attachments
-  description: Files attached to a message. This is a Pages-only endpoint.
+- name: Facebook Get Add Attachments
+  description: 'Media content associated with a story or comment. Story attachments
+    are accessed from the following endpoints:'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0
   tags: Attachments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/facebook/#123;message-id-#125;-attachments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/facebook/#123;post-id-#125;-attachments-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
