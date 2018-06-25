@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elasti
 x-kinRank: "8"
 x-alexaRank: "50338"
 tags: Attachments
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/elastic-email/apis.md
 specificationVersion: "0.14"
 apis:
