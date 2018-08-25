@@ -36,6 +36,28 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to a message.
+      operationId: AddAttachment
+      x-api-path-slug: memailfoldersidchildfoldersid---messagesidattachmentsid-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /users/{id | userPrincipalName}/mailFolders/{id}/childFolders/{id}/messages/{id}/attachments/{id}:
     get:
       summary: List Attachments
@@ -60,6 +82,31 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to a message.
+      operationId: AddAttachment
+      x-api-path-slug: usersid--userprincipalnamemailfoldersidchildfoldersidmessagesidattachmentsid-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /me/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -81,6 +128,30 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: meeventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /users/{id | userPrincipalName}/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -105,6 +176,33 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: usersid--userprincipalnameeventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /groups/{id}/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -126,6 +224,30 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: groupsideventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /me/calendar/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -147,6 +269,30 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: mecalendareventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /users/{id | userPrincipalName}/calendar/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -171,6 +317,33 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: usersid--userprincipalnamecalendareventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /groups/{id}/calendar/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -192,6 +365,30 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: groupsidcalendareventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /me/calendars/{id}/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -213,6 +410,30 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: mecalendarsideventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /users/{id | userPrincipalName}/calendars/{id}/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -237,6 +458,33 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: usersid--userprincipalnamecalendarsideventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /me/calendargroup/calendars/{id}/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -258,6 +506,30 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: mecalendargroupcalendarsideventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /users/{id | userPrincipalName}/calendargroup/calendars/{id}/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -282,6 +554,33 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: usersid--userprincipalnamecalendargroupcalendarsideventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /me/calendargroups/{id}/calendars/{id}/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -303,6 +602,30 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: mecalendargroupsidcalendarsideventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /users/{id | userPrincipalName}/calendargroups/{id}/calendars/{id}/events/{id}/attachments:
     get:
       summary: List Attachments
@@ -327,6 +650,33 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to an event. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: usersid--userprincipalnamecalendargroupsidcalendarsideventsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /me/messages/{id}/attachments:
     get:
       summary: List Attachments
@@ -348,6 +698,28 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to a message.
+      operationId: AddAttachment
+      x-api-path-slug: memessagesidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /users/{id | userPrincipalName}/messages/{id}/attachments:
     get:
       summary: List Attachments
@@ -372,6 +744,31 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to a message.
+      operationId: AddAttachment
+      x-api-path-slug: usersid--userprincipalnamemessagesidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /me/mailFolders/{id}/messages/{id}/attachments:
     get:
       summary: List Attachments
@@ -393,6 +790,28 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to a message.
+      operationId: AddAttachment
+      x-api-path-slug: memailfoldersidmessagesidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /users/{id | userPrincipalName}/mailFolders/{id}/messages/{id}/attachments:
     get:
       summary: List Attachments
@@ -417,6 +836,31 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to a message.
+      operationId: AddAttachment
+      x-api-path-slug: usersid--userprincipalnamemailfoldersidmessagesidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-Type
+        description: Nature of the data in the body of an entity
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /groups/{id}/threads/{id}/posts/{id}/attachments:
     get:
       summary: List Attachments
@@ -437,6 +881,25 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to a post. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: groupsidthreadsidpostsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
   /groups/{id}/conversations/{id}/threads/{id}/posts/{id}/attachments:
     get:
       summary: List Attachments
@@ -457,4 +920,440 @@ paths:
       tags:
       - List
       - Attachments
+    post:
+      summary: Add Attachment
+      description: Add attachment Use this API to add an attachment to a post. Since
+        there is currently a limit of 4MB on the total size of each REST request,
+        this limits the size of the attachment you can add to under 4MB.
+      operationId: AddAttachment
+      x-api-path-slug: groupsidconversationsidthreadsidpostsidattachments-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /me/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: meeventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /users/{id | userPrincipalName}/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: usersid--userprincipalnameeventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /groups/{id}/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: groupsideventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /me/calendar/{id}/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: mecalendarideventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /users/{id | userPrincipalName}/calendar/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: usersid--userprincipalnamecalendareventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /groups/{id}/calendar/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: groupsidcalendareventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /me/calendars/{id}/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: mecalendarsideventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /users/{id | userPrincipalName}/calendars/{id}/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: usersid--userprincipalnamecalendarsideventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /me/calendargroup/calendars/{id}/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: mecalendargroupcalendarsideventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /users/{id | userPrincipalName}/calendargroup/calendars/{id}/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: usersid--userprincipalnamecalendargroupcalendarsideventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /me/calendargroups/{id}/calendars/{id}/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: mecalendargroupsidcalendarsideventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /users/{id | userPrincipalName}/calendargroups/{id}/calendars/{id}/events/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: usersid--userprincipalnamecalendargroupsidcalendarsideventsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /me/messages/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: memessagesidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /users/{id | userPrincipalName}/messages/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: usersid--userprincipalnamemessagesidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /me/mailFolders/{id}/messages/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: memailfoldersidmessagesidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /users/{id | userPrincipalName}/mailFolders/{id}/messages/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: usersid--userprincipalnamemailfoldersidmessagesidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /groups/{id}/threads/{id}/posts/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: groupsidthreadsidpostsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+  /groups/{id}/conversations/{id}/threads/{id}/posts/{id}/attachments/{id}:
+    get:
+      summary: Get Attachment
+      description: |-
+        Get attachment
+        Read the properties and relationships of an attachment, attached to an event,
+        message, or post.
+      operationId: GetAttachment
+      x-api-path-slug: groupsidconversationsidthreadsidpostsidattachmentsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
 ---

@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Attachments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitbucket Get Repositories Username Repo Slug Issues Issue  Attachments
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Issues Issue  Attachments
+  x-api-slug: repositoriesusernamerepo-slugissuesissue-idattachments-get
   description: |-
     Returns all attachments for this issue.
 
@@ -23,27 +23,29 @@ apis:
     The files are always ordered by their upload date.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments
-  tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachments-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Issues Issue  Attachments
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Issues Issue  Attachments
+  x-api-slug: repositoriesusernamerepo-slugissuesissue-idattachments-parameters
   description: Parameters repositories username repo slug issues issue  attachments
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments
-  tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachments-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachments-parameters-openapi.md
-- name: Bitbucket Add Repositories Username Repo Slug Issues Issue  Attachments
-  x-api-slug: bitbucket
+- name: Bitbucket - Add Repositories Username Repo Slug Issues Issue  Attachments
+  x-api-slug: repositoriesusernamerepo-slugissuesissue-idattachments-post
   description: |-
     Upload new issue attachments.
 
@@ -54,28 +56,31 @@ apis:
     then the existing file will be replaced.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments
-  tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachments-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachments-post-openapi.md
-- name: Bitbucket Delete Repositories Username Repo Slug Issues Issue  Attachments
+- name: Bitbucket - Delete Repositories Username Repo Slug Issues Issue  Attachments
     Path
-  x-api-slug: bitbucket
+  x-api-slug: repositoriesusernamerepo-slugissuesissue-idattachmentspath-delete
   description: Delete repositories username repo slug issues issue  attachments path
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments/{path}
-  tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments, Path
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachmentspath-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachmentspath-delete-openapi.md
-- name: Bitbucket Get Repositories Username Repo Slug Issues Issue  Attachments Path
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Issues Issue  Attachments
+    Path
+  x-api-slug: repositoriesusernamerepo-slugissuesissue-idattachmentspath-get
   description: |-
     Returns the contents of the specified file attachment.
 
@@ -87,39 +92,34 @@ apis:
     As a result, the link should not be persisted, stored, or shared.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments/{path}
-  tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments, Path
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachmentspath-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachmentspath-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Issues Issue  Attachments
+- name: Bitbucket - Parameters Repositories Username Repo Slug Issues Issue  Attachments
     Path
-  x-api-slug: bitbucket
+  x-api-slug: repositoriesusernamerepo-slugissuesissue-idattachmentspath-parameters
   description: Parameters repositories username repo slug issues issue  attachments
     path
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments/{path}
-  tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments, Path
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachmentspath-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idattachmentspath-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: Collaborate on code with inline comments and pull requests. Manage
-    and share your Git repositories to build and ship software, as a team.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
-  humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Attachments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/bitbucket/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bigoven.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bitbucket.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/bitbucket
 - type: x-developer

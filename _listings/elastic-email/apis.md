@@ -7,38 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elasti
 x-kinRank: "8"
 x-alexaRank: "50338"
 tags: Attachments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/elastic-email/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Elastic Email SMTP API Upload Attachment
-  x-api-slug: elastic-email-smtp-api
+- name: Elastic Email SMTP API - Upload Attachment
+  x-api-slug: attachmentsupload-get
   description: The upload attachment command is used to upload an attachment for sending.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
   humanURL: http://elasticemail.com
-  baseURL: http://api.elasticemail.com///attachments/upload/
-  tags: Attachments,Upload
+  baseURL: http://api.elasticemail.com//
+  tags: Cloud, Target, Stack Network, Technology, SaaS, internet, API Provider, Emails,
+    Messages, Profiles, Emails, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/elastic-email/attachmentsupload-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/elastic-email/attachmentsupload-get-openapi.md
-- name: Elastic Email SMTP API
-  x-api-slug: elastic-email-smtp-api
-  description: Elastic Email is a simple, fast email delivery service for your cloud
-    application or marketing needs.  Elastic Email is designed as an SMTP relay for
-    reliable delivery of bulk email marketing or single recipient transactional emails
-    with detailed delivery statistics.  No monthly committments, no minimums, no limits.  Just
-    pay for what you use for as low as  $0.08 / 1000 emails.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
-  humanURL: http://elasticemail.com
-  baseURL: http://api.elasticemail.com//
-  tags: Attachments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/elastic-email/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://ehrscape.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://elastic.email.stack.network
 - type: x-base
   url: http://api.elasticemail.com
 - type: x-blog
