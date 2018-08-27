@@ -12,11 +12,47 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Attachments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/aws-identity-and-access-management/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Identity and Access Management API - Attach Group Policy
+  x-api-slug: actionattachgrouppolicy-get
+  description: Attaches the specified managed policy to the specified IAM group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/aws-identity-and-access-management/actionattachgrouppolicy-get-openapi.md
+- name: AWS Identity and Access Management API - Attach Role Policy
+  x-api-slug: actionattachrolepolicy-get
+  description: Attaches the specified managed policy to the specified IAM role.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/aws-identity-and-access-management/actionattachrolepolicy-get-openapi.md
+- name: AWS Identity and Access Management API - Attach User Policy
+  x-api-slug: actionattachuserpolicy-get
+  description: Attaches the specified managed policy to the specified user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/aws-identity-and-access-management/actionattachuserpolicy-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.glacier.api.gallery.streamdata.io

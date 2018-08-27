@@ -10,11 +10,161 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Attachments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: uebermaps - Delete attachment
+  x-api-slug: attachmentsid-delete
+  description: Delete attachment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/attachmentsid-delete-openapi.md
+- name: uebermaps - Upload map attachment
+  x-api-slug: mapsidattachments-post
+  description: Upload map attachment. Wrap attachment parameters in [attachment]
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/mapsidattachments-post-openapi.md
+- name: uebermaps - Upload spot attachment
+  x-api-slug: spotsidattachments-post
+  description: Upload spot attachment. Wrap attachment parameters in [attachment]
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/spotsidattachments-post-openapi.md
+- name: uebermaps - List attachments for a given map
+  x-api-slug: mapsidattachments-get
+  description: List attachments for a given map.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/mapsidattachments-get-openapi.md
+- name: uebermaps - List attachments for a given spot
+  x-api-slug: spotsidattachments-get
+  description: List attachments for a given spot.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/spotsidattachments-get-openapi.md
+- name: uebermaps - Delete attachment
+  x-api-slug: attachmentsid-delete
+  description: Delete attachment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/attachmentsid-delete-openapi.md
+- name: uebermaps - Upload map attachment
+  x-api-slug: mapsidattachments-post
+  description: Upload map attachment. Wrap attachment parameters in [attachment]
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/mapsidattachments-post-openapi.md
+- name: uebermaps - Upload spot attachment
+  x-api-slug: spotsidattachments-post
+  description: Upload spot attachment. Wrap attachment parameters in [attachment]
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/spotsidattachments-post-openapi.md
+- name: uebermaps - List attachments for a given map
+  x-api-slug: mapsidattachments-get
+  description: List attachments for a given map.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/mapsidattachments-get-openapi.md
+- name: uebermaps - List attachments for a given spot
+  x-api-slug: spotsidattachments-get
+  description: List attachments for a given spot.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/spotsidattachments-get-openapi.md
+- name: uebermaps - Upload spot attachment
+  x-api-slug: spotsidattachments-post
+  description: Upload spot attachment. Wrap attachment parameters in [attachment]
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/spotsidattachments-post-openapi.md
+- name: uebermaps - Upload map attachment
+  x-api-slug: mapsidattachments-post
+  description: Upload map attachment. Wrap attachment parameters in [attachment]
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/mapsidattachments-post-openapi.md
+- name: uebermaps - Delete attachment
+  x-api-slug: attachmentsid-delete
+  description: Delete attachment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/attachmentsid-delete-openapi.md
+- name: uebermaps - List attachments for a given spot
+  x-api-slug: spotsidattachments-get
+  description: List attachments for a given spot.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/spotsidattachments-get-openapi.md
+- name: uebermaps - List attachments for a given map
+  x-api-slug: mapsidattachments-get
+  description: List attachments for a given map.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/uebermaps/mapsidattachments-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://uc.berkeley.api.gallery.streamdata.io

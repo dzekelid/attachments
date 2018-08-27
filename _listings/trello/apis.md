@@ -9,11 +9,141 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Attachments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Trello - Get Cards Attachments
+  x-api-slug: cardsidcardattachments-get
+  description: Get cards attachments.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardattachments-get-openapi.md
+- name: Trello - Post Cards Attachments
+  x-api-slug: cardsidcardattachments-post
+  description: Post cards attachments.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardattachments-post-openapi.md
+- name: Trello - Delete Cards Attachments Attachment
+  x-api-slug: cardsidcardattachmentsidattachment-delete
+  description: Delete cards attachments attachment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardattachmentsidattachment-delete-openapi.md
+- name: Trello - Get Cards Attachments Attachment
+  x-api-slug: cardsidcardattachmentsidattachment-get
+  description: Get cards attachments attachment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardattachmentsidattachment-get-openapi.md
+- name: Trello - Delete Cards Attachments Attachment
+  x-api-slug: cardsidcardattachmentsidattachment-delete
+  description: Delete cards attachments attachment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardattachmentsidattachment-delete-openapi.md
+- name: Trello - Get Cards Attachments Attachment
+  x-api-slug: cardsidcardattachmentsidattachment-get
+  description: Get cards attachments attachment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardattachmentsidattachment-get-openapi.md
+- name: Trello - Put Cards Attachmentcover
+  x-api-slug: cardsidcardidattachmentcover-put
+  description: Put cards attachmentcover.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardidattachmentcover-put-openapi.md
+- name: Trello - Delete Cards Attachments Attachment
+  x-api-slug: cardsidcardattachmentsidattachment-delete
+  description: Delete cards attachments attachment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardattachmentsidattachment-delete-openapi.md
+- name: Trello - Get Cards Attachments Attachment
+  x-api-slug: cardsidcardattachmentsidattachment-get
+  description: Get cards attachments attachment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardattachmentsidattachment-get-openapi.md
+- name: Trello - Put Cards Attachmentcover
+  x-api-slug: cardsidcardidattachmentcover-put
+  description: Put cards attachmentcover.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardidattachmentcover-put-openapi.md
+- name: Trello - Get Cards Attachments Attachment
+  x-api-slug: cardsidcardattachmentsidattachment-get
+  description: Get cards attachments attachment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardattachmentsidattachment-get-openapi.md
+- name: Trello - Delete Cards Attachments Attachment
+  x-api-slug: cardsidcardattachmentsidattachment-delete
+  description: Delete cards attachments attachment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardattachmentsidattachment-delete-openapi.md
+- name: Trello - Put Cards Attachmentcover
+  x-api-slug: cardsidcardidattachmentcover-put
+  description: Put cards attachmentcover.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
+  humanURL: http://trello.com
+  baseURL: https://trello.com//1
+  tags: Projects, Collaboration, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/trello/cardsidcardidattachmentcover-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://transport.for.london.unified.api.gallery.streamdata.io

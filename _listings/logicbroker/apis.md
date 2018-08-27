@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Attachments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/logicbroker/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/logicbroker/apiv1attachments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/logicbroker/apiv1attachments-get-openapi.md
+- name: CommerceAPI - Upload an attachment
+  x-api-slug: apiv1attachments-post
+  description: Request rate limited to 10 requests per second with bursts up to 100
+    requests.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png
+  humanURL: https://www.logicbroker.com/
+  baseURL: https://stage.commerceapi.io//
+  tags: Commerce, Retail
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/logicbroker/apiv1attachments-post-openapi.md
+- name: CommerceAPI - Retrieve a file from Logicbroker storage.
+  x-api-slug: apiv1attachmentscontainername-get
+  description: Request rate limited to 10 requests per second with bursts up to 100
+    requests.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png
+  humanURL: https://www.logicbroker.com/
+  baseURL: https://stage.commerceapi.io//
+  tags: Commerce, Retail
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/logicbroker/apiv1attachmentscontainername-get-openapi.md
 - name: CommerceAPI - Get a list of all attachments matching a given filter.
   x-api-slug: apiv1attachments-get
   description: Request rate limited to 10 requests per second with bursts up to 100
@@ -40,6 +62,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/logicbroker/apiv1attachments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/logicbroker/apiv1attachments-get-openapi.md
+- name: CommerceAPI - Upload an attachment
+  x-api-slug: apiv1attachments-post
+  description: Request rate limited to 10 requests per second with bursts up to 100
+    requests.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png
+  humanURL: https://www.logicbroker.com/
+  baseURL: https://stage.commerceapi.io//
+  tags: Commerce, Retail
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/logicbroker/apiv1attachments-post-openapi.md
+- name: CommerceAPI - Retrieve a file from Logicbroker storage.
+  x-api-slug: apiv1attachmentscontainername-get
+  description: Request rate limited to 10 requests per second with bursts up to 100
+    requests.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png
+  humanURL: https://www.logicbroker.com/
+  baseURL: https://stage.commerceapi.io//
+  tags: Commerce, Retail
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/logicbroker/apiv1attachmentscontainername-get-openapi.md
+- name: CommerceAPI - Upload an attachment
+  x-api-slug: apiv1attachments-post
+  description: Request rate limited to 10 requests per second with bursts up to 100
+    requests.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png
+  humanURL: https://www.logicbroker.com/
+  baseURL: https://stage.commerceapi.io//
+  tags: Commerce, Retail
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/logicbroker/apiv1attachments-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.logicbroker.com/feed/

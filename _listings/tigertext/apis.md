@@ -11,11 +11,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Attachments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/tigertext/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Tiger Connect Message API - Retrieves the attachment from the message.
+  x-api-slug: messagemessage-tokenattachment1-get
+  description: Retrieves the attachment from the message. Currently we only support
+    one attachment per message. if found. It returns the attached file.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
+  humanURL: http://www.tigertext.com/
+  baseURL: https://developer.tigertext.me//v2/
+  tags: SMS, Secure, SMS, Getting Started Example, SMS, Messages, Messages, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/tigertext/messagemessage-tokenattachment1-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/tigertext/messagemessage-tokenattachment1-get-openapi.md
 - name: Tiger Connect Message API - Retrieves the attachment from the message.
   x-api-slug: messagemessage-tokenattachment1-get
   description: Retrieves the attachment from the message. Currently we only support

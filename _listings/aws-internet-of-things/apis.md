@@ -15,11 +15,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Attachments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/aws-internet-of-things/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Internet of Things API - Attach Principal Policy
+  x-api-slug: actionattachprincipalpolicy-get
+  description: Attaches the specified policy to the specified principal (certificate
+    or other credential).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/aws-internet-of-things/actionattachprincipalpolicy-get-openapi.md
 - name: AWS Internet of Things API - Attach Thing Principal
   x-api-slug: actionattachthingprincipal-get
   description: Attaches the specified principal to the specified thing.

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Attachments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-office-365/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-office-365/contactscontact-idattachments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-office-365/contactscontact-idattachments-get-openapi.md
+- name: Microsoft Office 365 - Add Contacts Contact Attachments
+  x-api-slug: contactscontact-idattachments-post
+  description: To add an attachment to an item, send a POST request to the ...
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
+  humanURL: http://office.com
+  baseURL: https://outlook.office365.com//ews/odata/Me
+  tags: Spreadsheets, Documents, Stack Network, Stack, Productivity, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attachments/master/_listings/microsoft-office-365/contactscontact-idattachments-post-openapi.md
 - name: Microsoft Office 365 - Delete Contacts Contact Attachments
   x-api-slug: contactscontact-idattachments-delete
   description: To delete an attachment, send a DELETE request to the URL of...
